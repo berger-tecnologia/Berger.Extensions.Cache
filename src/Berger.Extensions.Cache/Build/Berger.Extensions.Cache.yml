@@ -18,7 +18,7 @@ jobs:
     clean: true
     fetchTags: false
   - task: UseDotNet@2
-    displayName: dotnet core sdk 7.x use
+    displayName: dotnet core sdk 8.x use
     inputs:
       version: 7.x
   - task: DotNetCoreCLI@2
